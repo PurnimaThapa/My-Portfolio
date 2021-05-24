@@ -1,0 +1,56 @@
+           h1 {
+               padding-left: 520px;
+                color: black;
+            }
+           */* {
+                border: solid;
+            }
+            */
+            .header{
+                background-color: #fda;
+                display:flex;
+                
+                margin-right: 50px;
+                margin-left: 50px;
+            }
+            .grid{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:space-evenly;
+            }
+            .links{
+                margin-left:100px
+            }
+            a:link{
+                color:cyan
+                }
+            a:visited{
+                color:deeppink
+            }
+            .footer{
+                display:flex;
+                justify-content:flex-end;
+            }
+            p,h2{
+                text-align: center;           
+            }
+            body{
+                background-image: url("yellow.jpeg");
+                background-size: 100%;
+            }
+            .item{
+                position: relative;
+            }
+            .item p{
+                position: absolute;
+                left:40%;
+                top:50%;
+                transform:translate(-25%,-25%)
+            }
+            .item:hover p{
+                opacity:1
+            }
+            .item:hover img{
+                opacity:0.5
+            }
+           
